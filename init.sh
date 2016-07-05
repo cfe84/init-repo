@@ -23,5 +23,5 @@ cp $DIR/src/*.sh $REPO/
 FILES="package.json.template version.txt .gitignore"
 
 for FILE in $FILES; do
-    [ ! -s $REPO/$FILE ] && cp $DIR/bin/$FILE $REPO/$FILE
+    [ ! -s $REPO/$FILE ] && cp $DIR/src/$FILE $REPO/$FILE
 done
