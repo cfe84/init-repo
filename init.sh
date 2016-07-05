@@ -19,7 +19,7 @@ echo "Copying files"
 
 cp src/*.sh $REPO/
 
-FILES="package.json.template version.txt"
+FILES="package.json.template version.txt .gitignore"
 
 for FILE in $FILES; do
     [ ! -s $REPO/$FILE ] && cp bin/$FILE $REPO/$FILE
