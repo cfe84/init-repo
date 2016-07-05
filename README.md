@@ -1,0 +1,1 @@
+Inits coffee script repository with useful tools to build and clean.

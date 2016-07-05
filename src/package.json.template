@@ -1,0 +1,22 @@
+{
+  "name": "PLEASE UPDATE ME",
+  "version": "%VERSION%",
+  "description": "DESCRIPTION",
+  "main": "PLEASE UPDATE ME",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfe84/xxxxxxxx"
+  },
+  "keywords": [
+
+  ],
+  "author": "Charles Feval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cfe84/xxxxxxxx/issues"
+  },
+  "homepage": "https://github.com/cfe84/xxxxxxxx#readme"
+}
