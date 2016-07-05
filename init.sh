@@ -1,6 +1,7 @@
 #!/bin/bash
 
 REPO=$1
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 if [ ! $REPO ]; then
     echo "Usage: init.sh REPONAME"
@@ -17,10 +18,10 @@ done
 
 echo "Copying files"
 
-cp src/*.sh $REPO/
+cp $DIR/src/*.sh $REPO/
 
 FILES="package.json.template version.txt .gitignore"
 
 for FILE in $FILES; do
-    [ ! -s $REPO/$FILE ] && cp bin/$FILE $REPO/$FILE
+    [ ! -s $REPO/$FILE ] && cp $DIR/bin/$FILE $REPO/$FILE
 done
